@@ -1,0 +1,395 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("image/macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header ul {
+    list-style: none;
+    /* border: 2px solid red; */
+}
+
+header ul li {
+    display: inline-block;
+    margin: 1vw;
+}
+
+header ul li a {
+    font-weight: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover {
+    color: lightgray;
+    text-decoration: underline;
+    transition: color 1s, text-decoration 1s;
+}
+
+header .photo {
+    background-image: url(image/ram.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    height: 40vh;
+    width: 18vw;
+    border-radius: 100%;
+    position: relative;
+    top: 32vh;
+    border: 4px solid white;
+    box-shadow: 0px 0px 6px 1px white;
+
+}
+
+header .name {
+    position: relative;
+    top: 20vh;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+header .social {
+    position: relative;
+    top: 22vh;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+header .social a {
+    padding: 1vw;
+    text-decoration: none;
+    color: white;
+}
+
+header .social a:hover {
+    border-radius: 100%;
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+main #about {
+    width: auto;
+    position: relative;
+    top: 20vh;
+    margin-top: 10%;
+}
+
+main .about-para {
+    text-align: justify;
+    font-size: 1.33rem;
+    margin-top: 15px;
+    line-height: 1.8rem;
+    font-family: "Arial";
+    letter-spacing: 1.5px;
+}
+
+main #about div {
+    margin: auto;
+    font-size: 20px;
+    line-height: 3vh;
+    width: 70vw;
+    text-align: justify;
+}
+
+#skills {
+    text-align: center;
+    color: #2857a4;
+    width: auto;
+    height: auto;
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    top: 22vh;
+    font-size: larger;
+    padding: 2vh;
+}
+
+.skillslist {
+    margin: auto;
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skillbox {
+    margin: 2vh 1vw 2vh 1vw;
+    height: 5vh;
+    width: 10vw;
+    background-color: lightgray;
+    border-radius: 1.5rem;
+    box-shadow: inset 1px 2px rgb(185, 185, 185);
+}
+
+.bg-darkblue {
+    background-color: darkblue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.eighty-five {
+    box-sizing: border-box;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    height: inherit;
+    width: 85%;
+    padding-top: 1vh;
+}
+
+.seventy-five {
+    box-sizing: border-box;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    height: inherit;
+    width: 75%;
+    padding-top: 1vh;
+}
+
+#skillname {
+    font-weight: 2rem;
+    color: white;
+    text-align: center;
+}
+
+#workexp {
+    top: 32vh;
+    position: relative;
+    background-image: url(image/background23.jpg);
+}
+
+#eductaionHeading {
+    height: auto;
+    width: auto;
+    font-size: xx-large;
+    padding: 2vh;
+    color: #2857a4;
+    text-align: center;
+}
+
+.works {
+    margin: auto;
+    width: 70vw;
+    height: 80vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.works div {
+    height: 17vh;
+    width: 30vw;
+    border: 2px solid black;
+}
+
+.workposition1 {
+    position: relative;
+}
+
+.workposition2 {
+    position: relative;
+    left: 39vw;
+}
+
+.workposition4 {
+    position: relative;
+    left: 39vw;
+}
+
+.line {
+    border: 2px dotted black;
+    margin-top: 2vh;
+    position: absolute;
+    height: 75vh;
+    left: 48vw;
+}
+
+.airplane {
+    height: 50px;
+    width: 30px;
+    background-image: url(image/plane.png);
+    background-size: contain;
+    position: sticky;
+    background-repeat: no-repeat;
+    left: 47.1vw;
+    margin-top: 2vh;
+    top: 30%;
+}
+
+@media screen and (max-width:600px) {
+    .workposition2 {
+        position: static;
+
+    }
+
+    .workposition4 {
+        position: static;
+    }
+
+    .works div {
+        left: 20vw;
+        width: 60vw;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+    }
+
+    .line {
+        border: 2px dotted lightblue;
+        margin-top: 2vh;
+        position: absolute;
+        height: 65vh;
+        left: 15vw;
+    }
+
+    .airplane {
+        left: 0vw;
+    }
+}
+
+#portfolio {
+    height: auto;
+    width: auto;
+    top: 32vh;
+    position: relative;
+    text-align: center;
+    font-size: larger;
+    padding: 2vh;
+    color: #2857a4;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects div {
+    height: 40vh;
+    width: 40vh;
+    background-repeat: no-repeat;
+    margin: 2vh;
+}
+
+.projects div:hover {
+    color: black;
+    background-color: lightgray;
+    box-shadow: 2px 2px 2px 2px darkgray;
+    content: 'Here post you projects details.';
+    transition: background-color 2s, box-shadow 2s, content 2s;
+
+
+}
+
+.project1 {
+    background-image: url(image/project.jpeg);
+    /* background-color: lightblue; */
+    background-size: contain;
+}
+
+.project2 {
+    background-image: url(image/project_2.jpeg);
+    background-size: contain;
+    /* background-color: rgb(65, 42, 170); */
+}
+
+.project3 {
+    background-image: url(image/project_3.png);
+    background-size: contain;
+    /* background-color: rgb(238, 255, 6); */
+}
+
+.project4 {
+    background-image: url(image/tree.jpeg);
+    background-size: contain;
+    /* background-color: rgb(255, 0, 170); */
+}
+
+.project5 {
+    background-image: url(image/codezen.png);
+    background-size: contain;
+}
+
+.project6 {
+    background-image: url(image/codezen_2.png);
+    background-size: contain;
+}
+
+#contact {
+    position: relative;
+    font-size: larger;
+    padding: 2vh;
+    top: 32vh;
+    height: 70vh;
+    width: auto;
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+    line-height: 5vh;
+}
+
+.maincontact {
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    height: 20vh;
+    width: 45%;
+}
+
+.message input,
+textarea {
+    width: 20vw;
+    display: block;
+    margin: 5vh;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.message button {
+    background-color: inherit;
+    height: 5vh;
+    width: 10vw;
+    color: white;
+    font-size: 1rem;
+    border: 2px solid white;
+    margin-left: 8vw;
+}
+
+.mydetails {
+    height: 20vh;
+    width: 45%;
+}
