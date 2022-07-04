@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ram Kishan Teli</title>
+    <link rel="icon" href="image/Smile_Image.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -23,6 +24,7 @@
                 <!-- <li><a href="#workexp">Experience</a></li> -->
                 <li><a href="#workexp">Education</a></li>
                 <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#coding">Coding</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </center>
@@ -101,6 +103,12 @@
                     </div>
 
                 </div>
+                <div class="skillbox">
+                    <div class="bg-purple eighty-five">
+                        <span id="skillname">Bootstrap</span>
+                    </div>
+
+                </div>
             </div>
         </section>
         <section id="workexp">
@@ -148,21 +156,113 @@
                         <br><span style="color:red;">National Institute of Technology Karnataka Surathkal</span>
                         <br><span style="color:gray;font-weight: lighter;">2020-2023</span>
                     </span>
-                    <p style="text-align: justify;">I have done my gradution in Bachelor of Computer Application from
-                        MDSU Ajmer. Here I have started my Computer Science journey.</p>
+                    <p style="text-align: justify;">Currently I am pursuing Master of Computer Applications (MCA) from
+                        National Institute of Technology Karnataka Surathkal. </p>
                 </div>
             </div>
         </section>
-        <div style="height:30px;width:auto;background-color:rgb(243, 242, 242);position: relative; top: 35vh;"></div>
         <section id="portfolio">
             <h1><i class="fas fa-th-list"></i></i>&nbsp;&nbsp;Projects</h1>
             <div class="projects">
-                <div class="project1"></div>
-                <div class="project2"></div>
-                <div class="project3"></div>
-                <div class="project4"></div>
-                <div class="project5"></div>
-                <div class="project6"></div>
+                <div class="card" style="width: 18rem;">
+                    <img src="image/shopabble.png" class="card-img-top" alt="..." height="200px" width="300px">
+                    <div class="card-body">
+                        <h3 class="card-title">Shoppable Website</h3>
+                        <ul style="text-align: justify;">
+                            <li>Created a website that could allow anyone to place the orders and
+                                also track the orders.</li>
+                            <li>User can make payments using paypal account or debit/credit card while checkout.</li>
+                            <li>Admin can add new products by using Django admin panel.</li>
+                            <li>Technologies Used: Python, Django.</li>
+                            <li>Tools Used: VSCode, PostgreSQL.</li>
+                        </ul>
+                        <button><a href="https://github.com/ramkishanteli2/Shoppable-Shopping-Website"
+                                class="btn btn-primary" style="text-decoration: none;color: black;"
+                                target="_blank">Github
+                                Link</a></button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="image/collegegeek.png" class="card-img-top" alt="..." height="200px" width="300px">
+                    <div class="card-body">
+                        <h3 class="card-title">CollegeGeek Website</h3>
+                        <ul style="text-align: justify;">
+                            <li>Created and deployed a website that allows any college student to
+                                register on it and helps to find the study materials and about the
+                                course details for which student is registered.</li>
+                            <li>Student can view the profile of his bachmates and seniors.</li>
+                            <li>The notification module is designed for sending any official notification.</li>
+                            <li>Technologies Used: Python, Django.</li>
+                            <li>Tools Used: VSCode, PostgreSQL.</li>
+                        </ul>
+                        <button><a href="https://github.com/ramkishanteli2/CollegeGeek" class="btn btn-primary"
+                                style="text-decoration: none;color: black;" target="_blank">Github
+                                Link</a></button>
+                        <button><a href="https://webminda1.pythonanywhere.com/" class="btn btn-primary"
+                                style="text-decoration: none;color: black;" target="_blank">Website Link</a></button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="image/graphl.png" class="card-img-top" alt="..." height="200px" width="300px">
+                    <div class="card-body">
+                        <h3 class="card-title">Graph Visualizer</h3>
+                        <ul style="text-align: justify;">
+                            <li>This project is based on Dijkstra’s shortest path algorithm.</li>
+                            <li>Firstly the shortest path between given source and destination has been found using
+                                Dijkstra’s Algorithm.</li>
+                            <li>Now the shortest path which has been found, one object will move on that for better
+                                visualization.</li>
+                            <li>Technologies Used: C++.</li>
+                            <li>Tools Used: CodeBlocks.</li>
+                        </ul>
+                        <button><a href="https://github.com/ramkishanteli2/Graph-Visualizer.git" class="btn btn-primary"
+                                style="text-decoration: none;color: black;" target="_blank">Github
+                                Link</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="coding">
+            <h1 id="codingHeading"><i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;Coding</h1>
+            <div class="projects">
+                <div class="card" style="width: 18rem;">
+                    <img src="image/leetcode.png" class="card-img-top" alt="..." height="100px" width="250px">
+                    <div class="card-body">
+                        <h2 class="card-title">Leetcode</h2>
+                        <button style="background-color: gray;"><a href="https://leetcode.com/ramkishanteli2/"
+                                class="btn btn-primary" target="_blank"
+                                style="text-decoration: none;color:black;">Profile
+                                Link</a></button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="image/codechef.png" class="card-img-top" alt="..." height="100px" width="250px">
+                    <div class="card-body">
+                        <h2 class="card-title">Codechef</h2>
+                        <button style="background-color: gray;"><a href="https://www.codechef.com/users/ramkishanteli2"
+                                class="btn btn-primary" target="_blank"
+                                style="text-decoration: none;color:black;">Profile Link</a></button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="image/codeforces.png" class="card-img-top" alt="..." height="100px" width="250px">
+                    <div class="card-body">
+                        <h2 class="card-title">Codeforces</h2>
+                        <button style="background-color: gray;"><a href="https://codeforces.com/profile/ramkishanteli2"
+                                class="btn btn-primary" target="_blank"
+                                style="text-decoration: none;color:black;">Profile Link</a></button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="image/gfg.png" class="card-img-top" alt="..." height="100px" width="250px">
+                    <div class="card-body">
+                        <h2 class="card-title">GeeksForGeeks</h2>
+                        <button style="background-color: gray;"><a
+                                href="https://auth.geeksforgeeks.org/user/ramkishanteli2/practice/"
+                                class="btn btn-primary" target="_blank"
+                                style="text-decoration: none;color:black;">Profile Link</a></button>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="contact">
@@ -178,13 +278,17 @@
                 </div>
                 <div class="mydetails">
                     <h2>Get in touch</h2>
-                    <p>
+                    <p style="font-size: smaller;color: #d9dcdd;">
+                        Hi there! Why not get to know each other better! Get in touch with me anytime using details
+                        given below. Always keen to talk to new people! <br>
                         National Institute of Technology Karnataka Surathkal
                     </p>
                     <h2>Address</h2>
-                    <i class="fas fa-map-marker-alt"></i> Rajasthan, India <br>
-                    <i class="fas fa-mobile-alt"></i> 9001384929 <br>
-                    <i class="fas fa-envelope"></i> ramkishanteli2@gmail.com
+                    <p style="font-size: smaller;color: #d9dcdd;">
+                        <i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Rajasthan, India <br>
+                        <i class="fas fa-mobile-alt"></i> &nbsp;&nbsp; +919001384929 <br>
+                        <i class="fas fa-envelope"></i> &nbsp;&nbsp; ramkishanteli2@gmail.com
+                    </p>
                 </div>
             </div>
         </section>
